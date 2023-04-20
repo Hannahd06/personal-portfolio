@@ -61,7 +61,7 @@ body {
 
 .container {
     position: relative;
-    padding-bottom: 30px;
+    padding-bottom: 110px;
 }
 
 .heading {
@@ -70,7 +70,7 @@ body {
     align-items: center;
     text-align: center;
     justify-content: center;
-    padding: 50px 20px 155px 20px;
+    padding: 60px;
     
 }
 
@@ -134,6 +134,7 @@ body {
 }
 
 .bio-content {
+    font-weight: 500;
     display: flex;
     align-items: center;
     text-align: center;
@@ -143,7 +144,6 @@ body {
 
 .bio-content p {
     color: #ab0164;
-    font-weight: 500;
     padding: 0px 80px;
     vertical-align: center;
     font-size: 20px;
@@ -151,8 +151,10 @@ body {
 }
 
 .bio-images {
-    width: 350px;
+    width: 450px;
     vertical-align: middle;
+    border-radius: 10px;
+    border: #ef31a0 5px solid;
 }
 
 @media (max-width: 800px) {
@@ -172,13 +174,13 @@ body {
     background-color: #ef31a0;
     margin: auto;
     width: 80%;
+    margin-bottom: -30px;
 }
 
 .grid {
     width: 80%;
     margin: auto;
     padding: 30px;
-    margin-bottom: 60px;
     display: grid;
     justify-content: center;
     align-content: center;
