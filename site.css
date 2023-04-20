@@ -27,10 +27,11 @@ header {
 }
 
 header p {
-    font-size: 30px;
+    font-size: 2.25em;
     font-family: "Exo 2", Arial, sans-serif;
     font-weight: 700;
     margin: 10px 0px;
+    
 
  }
 nav {
@@ -40,15 +41,18 @@ nav {
 
 nav a {
     font-weight: 900;
+    font-size: 1.2em;
     color: white;
     padding: 14px 12px;
     text-decoration: none;
+
     
 }
 
 nav a:hover {
     color:#520030;
     background-color: aqua;
+    text-decoration: underline;
 }
 
 body {
@@ -57,6 +61,7 @@ body {
 
 .container {
     position: relative;
+    padding-bottom: 30px;
 }
 
 .heading {
@@ -65,7 +70,7 @@ body {
     align-items: center;
     text-align: center;
     justify-content: center;
-    padding: 50px 20px 180px 20px;
+    padding: 50px 20px 155px 20px;
     
 }
 
@@ -91,11 +96,12 @@ body {
 }
 
 .footer {
+    height: 80px;
     margin: 0px -10px -10px -10px;
     border-top: 2px solid #520030;
     background-color: #ef31a0;
     padding-top: 20px;
-    padding-bottom: 20px;
+    padding-bottom: 0px;
 
 
 }
@@ -118,6 +124,7 @@ body {
 .footer a:hover {
         color:#520030;
         background-color: aqua;
+        text-decoration: underline;
 }
 
 .about-main {
@@ -171,7 +178,7 @@ body {
     width: 80%;
     margin: auto;
     padding: 30px;
-    margin-bottom: 100px;
+    margin-bottom: 60px;
     display: grid;
     justify-content: center;
     align-content: center;
