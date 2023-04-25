@@ -7,7 +7,6 @@ html {
 
 h1, h2, h3 {
     font-family: "Exo 2", Arial, sans-serif;
-
 }
 
 h1 {
@@ -160,15 +159,14 @@ body {
 @media (max-width: 800px) {
     .bio-content {
        flex-direction: column;
+       margin-top: -60px;
     }
-}
-
-@media (max-width: 800px) {
-    .bio-images {
+     .bio-images {
        margin: auto;
+       margin-top: 30px;
+       margin-bottom: 30px;
     }
 }
-
 
 .grid-container {
     background-color: #ef31a0;
@@ -196,6 +194,12 @@ body {
     padding: 10px;
     border-radius: 5px;
 }
+
+.card:hover {
+    box-shadow: 0 16px 24px 0 rgb(0 0 0 / 0.2);
+  
+}
+
 .card-title {
     text-align: center;
     font-size: 1.8em;
@@ -247,9 +251,9 @@ body {
 }
 
 #resume-container {
-    background-color: #fcd5ef;
+    background-color: #f8dbee;
     margin: auto;
-    padding: 40px;
+    padding: 60px;
     width: 80%;
     margin-bottom: 50px;
 }
@@ -285,6 +289,13 @@ i:hover {
     font-weight: 500;
 }
 
+@media (max-width: 800px) {
+    .list-grid {
+        display: grid;
+        grid-template-columns: auto auto;
+    }
+}
+
 .card-content h2 {
     font-size: 25px;
 }
@@ -308,7 +319,3 @@ i:hover {
     text-align: center;
     font-size: 22px;
 }
-
-
-
-
