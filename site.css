@@ -236,15 +236,15 @@ body {
 
 }
 
-#card-color {
+.card-color {
     background-color: #ef31a0;
 }
 
-#content-color a {
+.content-color a {
     color: white;
 }
 
-#content-color a:hover {
+.content-color a:hover {
     color: #520030;
     background-color: aqua;
     
@@ -307,13 +307,13 @@ i:hover {
 
 }
 
-#bucket-color {
+.bucket-color {
     background-color: #ef31a0;
     margin-bottom: 30px;
     border: 3px solid #520030;
 }
 
-#bucket-color p {
+.bucket-color p {
     color: white;
     font-weight: 700;
     text-align: center;
