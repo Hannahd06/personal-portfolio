@@ -245,6 +245,10 @@ body {
     background-color: #f1209a;
 }
 
+.card-color .card-title {
+    color: rgb(165, 234, 255);
+}
+
 .content-color a {
     color: white;
 }
