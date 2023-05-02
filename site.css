@@ -21,14 +21,14 @@ header {
     margin-left: -10px;
     width: 100%;
     color: white;
-    background-color: #ef31a0;
+    background-color: #f1209a;
     padding: 10px;
 }
 
 header p {
     font-size: 2.25em;
     font-family: "Exo 2", Arial, sans-serif;
-    font-weight: 700;
+    font-weight: 900;
     margin: 10px 0px;
     
 
@@ -50,8 +50,9 @@ nav a {
 
 nav a:hover {
     color:#520030;
-    background-color: aqua;
+    background-color: rgb(249, 230, 152);
     text-decoration: underline;
+    border-radius: 5px;
 }
 
 body {
@@ -98,7 +99,7 @@ body {
     height: 80px;
     margin: 0px -10px -10px -10px;
     border-top: 2px solid #520030;
-    background-color: #ef31a0;
+    background-color: #f1209a;
     padding-top: 20px;
     padding-bottom: 0px;
 
@@ -127,7 +128,7 @@ body {
 }
 
 .about-main {
-    margin:50px 100px 0px 100px;
+    margin: 50px 100px 50px 100px;
     font-size: 25px;
     color: #ab0164;
 }
@@ -138,14 +139,14 @@ body {
     align-items: center;
     text-align: center;
     justify-content: center;
-    margin: 20px 100px 50px 100px;
+    margin: 20px 80px 40px 80px;
 }
 
 .bio-content p {
     color: #ab0164;
     padding: 0px 80px;
     vertical-align: center;
-    font-size: 20px;
+    font-size: 22px;
     
 }
 
@@ -153,26 +154,30 @@ body {
     width: 450px;
     vertical-align: middle;
     border-radius: 10px;
-    border: #ef31a0 5px solid;
+    border: #f1209a 5px solid;
 }
 
 @media (max-width: 800px) {
     .bio-content {
        flex-direction: column;
-       margin-top: -60px;
-    }
-     .bio-images {
-       margin: auto;
-       margin-top: 30px;
-       margin-bottom: 30px;
+       margin: 20px 30px 40px 20px;
     }
 }
 
+@media (max-width: 800px) {
+    .bio-images {
+        margin: auto;
+        margin-top: 30px;
+        margin-bottom: 30px;
+     }
+}
+
 .grid-container {
-    background-color: #ef31a0;
+    background-color: #f1209a;
     margin: auto;
     width: 80%;
     margin-bottom: -30px;
+    border-radius: 5px;
 }
 
 .grid {
@@ -232,12 +237,12 @@ body {
 
 .card-content a:hover {
     color: #520030;
-    background-color: aqua;
+    background-color: rgb(249, 230, 152);
 
 }
 
 .card-color {
-    background-color: #ef31a0;
+    background-color: #f1209a;
 }
 
 .content-color a {
@@ -246,7 +251,7 @@ body {
 
 .content-color a:hover {
     color: #520030;
-    background-color: aqua;
+    background-color: rgb(249, 230, 152);
     
 }
 
@@ -307,13 +312,20 @@ i:hover {
 
 }
 
-.bucket-color {
-    background-color: #ef31a0;
+.bucket-color1 {
+    background-color: #f1209a;
     margin-bottom: 30px;
     border: 3px solid #520030;
 }
 
-.bucket-color p {
+.bucket-color2 {
+    background-color: #ff58ba;
+    margin-bottom: 30px;
+    border: 3px solid #520030;
+}
+
+
+.bucket-color1 p, .bucket-color2 p {
     color: white;
     font-weight: 700;
     text-align: center;
