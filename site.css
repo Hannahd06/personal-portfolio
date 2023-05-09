@@ -1,3 +1,11 @@
+/**
+    Title: site.css
+    Author: Hannah Del Real
+    Date: 3/15/2023
+    Description: CSS styling to be used on assignments for WEB 330.
+*/
+
+/* Styling for all pages */
 html {
     font-family: 'Alegreya Sans', Arial, Helvetica, sans-serif;
     font-size: 18px; 
@@ -64,37 +72,6 @@ body {
     padding-bottom: 110px;
 }
 
-.heading {
-    margin: auto;
-    display: flex;
-    align-items: center;
-    text-align: center;
-    justify-content: center;
-    padding: 60px;
-    
-}
-
-@media (max-width: 800px) {
-    .heading {
-       flex-direction: column;
-    }
-}
-
-.logo {
-    width: 450px;
-    vertical-align: middle;
-}
-
-.heading-content {
-    padding: 20px;
-}
-
-.heading-content p {
-    font-weight: 500;
-    font-size: 25px;
-    color: #ab0164;
-}
-
 .footer {
     height: 80px;
     margin: 0px -10px -10px -10px;
@@ -127,10 +104,45 @@ body {
         text-decoration: underline;
 }
 
+/* Landing page styling. */
+
+.heading {
+    margin: auto;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    padding: 60px;
+    
+}
+
+@media (max-width: 800px) {
+    .heading {
+       flex-direction: column;
+    }
+}
+
+.logo {
+    width: 450px;
+    vertical-align: middle;
+}
+
+.heading-content {
+    padding: 20px;
+}
+
+.heading-content p {
+    font-weight: 500;
+    font-size: 25px;
+    color: #990059;
+}
+
+/* About me page styling. */
+
 .about-main {
     margin: 50px 100px 50px 100px;
     font-size: 25px;
-    color: #ab0164;
+    color: #990059;
 }
 
 .bio-content {
@@ -143,7 +155,7 @@ body {
 }
 
 .bio-content p {
-    color: #ab0164;
+    color: #990059;
     padding: 0px 80px;
     vertical-align: center;
     font-size: 22px;
@@ -171,6 +183,8 @@ body {
         margin-bottom: 30px;
      }
 }
+
+/* Grid styling for projects, tests, and diagrams pages styling. */
 
 .grid-container {
     background-color: #f1209a;
@@ -204,8 +218,7 @@ body {
      }
 }
 
-
-
+/* styling for cards. */
 
 .card {
     box-shadow: 0 4px 8px 0 rgb(0 0 0 / 0.2);
@@ -232,18 +245,8 @@ body {
     padding: 2px 16px;
 }
 
-#projects ul {
-    text-align: center;
-    list-style: none;
-    padding-left: 0;
-   
-}
-
-#projects li {
-    padding: 10px;
-}
 .card-content a {
-    color: #ab0164;
+    color: #990059;
     text-decoration: none;
     font-weight: 500;
     word-spacing: .2em;
@@ -276,6 +279,21 @@ body {
     
 }
 
+/* projects page styling. */
+
+#projects ul {
+    text-align: center;
+    list-style: none;
+    padding-left: 0;
+   
+}
+
+#projects li {
+    padding: 10px;
+}
+
+/* resume page styling. */
+
 #resume-container {
     background-color: #f8dbee;
     margin: auto;
@@ -286,12 +304,12 @@ body {
 
 .my-info p {
     text-align: center;
-    color: #ab0164;
+    color: #990059;
     font-weight: 700;
 }
 
 #resume-container a {
-    color: #ab0164;
+    color: #990059;
 }
 
 i:hover {
@@ -303,7 +321,7 @@ i:hover {
 }
 
 .card-content p, .card-content li {
-    color: #ab0164;
+    color: #990059;
     font-weight: 400;
 }
 
@@ -329,6 +347,8 @@ i:hover {
 .card-content h2 {
     font-size: 25px;
 }
+
+/* bucket-list page styling. */
 
 .bucket-list-grid {
     width: 70%;
