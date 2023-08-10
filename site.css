@@ -44,7 +44,9 @@ header p {
 nav {
     display: flex;
     justify-content: center;
+    overflow: hidden;
 }
+
 
 nav a {
     font-weight: 900;
@@ -61,6 +63,55 @@ nav a:hover {
     background-color: rgb(249, 230, 152);
     text-decoration: underline;
     border-radius: 5px;
+}
+
+.dropdown {
+    overflow: hidden;
+    
+}
+
+.dropbtn {
+    overflow: hidden;
+    font-family: 'Alegreya Sans', Arial, Helvetica, sans-serif;
+    font-weight: 900;
+    font-size: 1.2em;
+    color: white;
+    padding: 14px 12px;
+    text-decoration: none;
+    background-color:#f1209a;
+    border: none;
+}
+
+.dropbtn:hover {
+    color:#520030;
+    background-color: rgb(249, 230, 152);
+    text-decoration: underline;
+    border-radius: 5px;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+  }
+
+
+.dropdown-content {
+    position: absolute;
+    display: none;
+    min-width: 160px;
+    background-color:#f8dbee;
+}
+
+.dropdown-content a {
+    float: none;
+    display: block;
+    color: #520030;
+    padding: 14px 12px;
+}
+
+.dropdown-content a:hover {
+    background-color: #990059;
+    color: #f8dbee;
+
 }
 
 body {
