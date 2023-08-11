@@ -19,7 +19,7 @@ class Header extends HTMLElement {
                         <button class="dropbtn">DevOps <i class="fa fa-caret-down"></i>
                         </button>
                         <div class="dropdown-content">
-                            <a href="../web-430/delreal-tech-value-stream.html">Tech Value Stream</a>
+                            <a href="web-430/delreal-tech-value-stream.html">Tech Value Stream</a>
                             <a href="#">Presentation 2</a>
                          </div>
                     </div>     
