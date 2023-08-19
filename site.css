@@ -94,6 +94,7 @@ nav a:hover {
   }
 
 
+
 .dropdown-content {
     position: absolute;
     display: none;
@@ -106,6 +107,10 @@ nav a:hover {
     display: block;
     color: #520030;
     padding: 14px 12px;
+}
+
+.dropdown-content:hover {
+    display: block;
 }
 
 .dropdown-content a:hover {
