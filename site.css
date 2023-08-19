@@ -111,13 +111,6 @@ nav a:hover {
     padding: 14px 12px;
 }
 
-.dropdown-content:hover {
-    display: block;
-    position: relative;
-    z-index: 1000;
-
-}
-
 .dropdown-content a:hover {
     background-color: #990059;
     color: #f8dbee;
