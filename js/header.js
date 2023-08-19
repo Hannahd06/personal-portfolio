@@ -20,7 +20,8 @@ class Header extends HTMLElement {
                         </button>
                         <div class="dropdown-content">
                             <a href="https://hannahd06.github.io/personal-portfolio/web-430/delreal-tech-value-stream.html">Tech Value Stream</a>
-                            <a href="#">Presentation 2</a>
+                            <a href="https://hannahd06.github.io/personal-portfolio/web-430/delreal-two-pizza-team-rule.html">The Two-Pizza Team Rule</a>
+                            <a href="#">Presentation 3</a>
                          </div>
                     </div>     
                 </nav>
