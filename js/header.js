@@ -21,7 +21,7 @@ class Header extends HTMLElement {
                         <div class="dropdown-content">
                             <a href="https://hannahd06.github.io/personal-portfolio/web-430/delreal-tech-value-stream.html">Tech Value Stream</a>
                             <a href="https://hannahd06.github.io/personal-portfolio/web-430/delreal-two-pizza-team-rule.html">The Two-Pizza Team Rule</a>
-                            <a href="https://hannahd06.github.io/personal-portfolio/web-430/del-real-automated-testing.html">DevOps Automated Testing</a>                            
+                            <a href="https://hannahd06.github.io/personal-portfolio/web-430/delreal-automated-testing.html">DevOps Automated Testing</a>                            
                             <a href="#">Presentation 4</a>
                          </div>
                     </div>     
