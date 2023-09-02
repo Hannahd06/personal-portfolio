@@ -18,12 +18,12 @@ class Header extends HTMLElement {
                     <div class="dropdown">
                         <button class="dropbtn">DevOps <i class="fa fa-caret-down"></i>
                         </button>
-                        <div class="dropdown-content">
+                        <d class="dropdown-content">
                             <a href="https://hannahd06.github.io/personal-portfolio/web-430/delreal-tech-value-stream.html">Tech Value Stream</a>
                             <a href="https://hannahd06.github.io/personal-portfolio/web-430/delreal-two-pizza-team-rule.html">The Two-Pizza Team Rule</a>
                             <a href="https://hannahd06.github.io/personal-portfolio/web-430/delreal-automated-testing.html">DevOps Automated Testing</a>                            
-                            <a href="#">Presentation 4</a>
-                         </div>
+                            <a href="https://hannahd06.github.io/personal-portfolio/web-430/delreal-continuous-integration.html">Continuous Integration</a>                            
+                            <a href="#">Presentation 5</a>
                     </div>     
                 </nav>
             </header>`;
