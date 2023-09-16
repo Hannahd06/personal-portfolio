@@ -24,7 +24,8 @@ class Header extends HTMLElement {
                             <a href="https://hannahd06.github.io/personal-portfolio/web-430/delreal-automated-testing.html">DevOps Automated Testing</a>                            
                             <a href="https://hannahd06.github.io/personal-portfolio/web-430/delreal-continuous-integration.html">Continuous Integration</a>                            
                             <a href="https://hannahd06.github.io/personal-portfolio/web-430/delreal-pager-rotation-duties.html">Pager Rotation Duties</a>                            
-                            <a href="#">Presentation 6</a>
+                            <a href="https://hannahd06.github.io/personal-portfolio/web-430/delreal-change-approval.html">Dangers of Change Approval</a>                            
+                            <a href="#">Presentation 7</a>
                             
                         <div>
                     </div>     
