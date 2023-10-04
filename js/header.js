@@ -27,7 +27,7 @@ class Header extends HTMLElement {
                             <a href="https://hannahd06.github.io/personal-portfolio/web-430/delreal-change-approval.html">Dangers of Change Approval</a>                            
                             <a href="https://hannahd06.github.io/personal-portfolio/web-430/delreal-technology-vs-business.html">Technology vs Business</a>                            
                             <a href="https://hannahd06.github.io/personal-portfolio/web-430/delreal-security-controls.html">Security Controls</a>                            
-                            <a href="#">Presentation 9</a>
+                            <a href="https://hannahd06.github.io/personal-portfolio/web-430/delreal-change-management.html">Change Management</a>                            
                             
                         <div>
                     </div>     
